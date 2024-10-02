@@ -77,6 +77,27 @@ html, body{
     text-transform: uppercase;
     color: #333;
     border-left: 4px solid #596e79;
+    padding-left: 5px;
+}
+.pyq-section ul{
+    list-style: none;
+}
+.pyq-section ul li{
+    margin: 10px 0;
+}
+.pyq-section ul li a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #dfd3c3;
+    color: #333;
+    /* margin-left: 20px; */
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+.pyq-section ul li a:hover{
+    background-color: #596e79;
 }
 
 @media (max-width:768px){
@@ -100,4 +121,15 @@ html, body{
     .navbar.active .nav-links{
         display: flex;
     }
+    h1{
+        font-size: 2rem;
+    }
+    .pyq-section h2{
+        font-size: 1.5rem;
+    }
+    .pyq-section ul li a{
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+
 }
