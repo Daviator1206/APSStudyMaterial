@@ -14,7 +14,7 @@ html, body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #596e79;
     color: #fff;
 }
 
@@ -42,15 +42,41 @@ html, body{
 }
 
 .nav-links a:hover{
-    background-color: #555;
+    background-color: #f0ece2;
     border-radius: 5px;
+    color: #596e79;
 }
 
 .hamburger-menu span{
     width: 25px;
     height: 3px;
-    background-color: #fff;
+    background-color: #f0ece2;
     margin: 4px 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #f0ece2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+.container h1{
+    margin-bottom: 40px;
+    font-size: 2.2rem;
+    color: #333;
+}
+
+.pyq-section{
+    margin-bottom: 40px;
+}
+
+.pyq-section h2{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #333;
+    border-left: 4px solid #596e79;
 }
 
 @media (max-width:768px){
@@ -59,7 +85,7 @@ html, body{
         position: absolute;
         top: 60px;
         right: 0;
-        background-color: #333;
+        background-color: #596e79;
         width: 100%;
         flex-direction: column;
         align-items: center;
