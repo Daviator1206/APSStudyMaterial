@@ -13,17 +13,20 @@ html, body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #596e79;
     color: #fff;
 }
+.logo img{
+    max-width: 56px;
+}
 
-.logo a{
+/* .logo a{
     font-size: 1.5rem;
     font-weight: bold;
     color: #fff;
     text-decoration: none;
-}
+} */
 
 .nav-links{
     display: flex;
@@ -60,6 +63,8 @@ html, body{
     background-color: #f0ece2;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
     border-radius: 10px;
+    
+
 }
 .container h1{
     margin-bottom: 40px;
@@ -100,6 +105,68 @@ html, body{
     background-color: #596e79;
 }
 
+.about-us{
+    max-width: 1200px;
+    margin: 41px auto;
+    padding: 25px;
+    background-color: #f0ece2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+.readmore-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.about-us img{
+    margin: 10px 10px;
+    width: 40px;
+}
+.button{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #dfd3c3;
+    transition: background-color 0.3s ease;
+}
+.button:hover{
+    background-color: #596e79;
+    color: white;
+}
+.about{
+    display: flex;
+    margin-right: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.about img{
+    width: 200px;
+    
+}
+.site-footer{
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer-content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-nav a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer-nav a:hover{
+    text-decoration: underline;
+}
+
+
 @media (max-width:768px){
     .nav-links{
         display: none;
@@ -131,5 +198,10 @@ html, body{
         font-size: 1rem;
         padding: 8px 15px;
     }
-
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
 }
